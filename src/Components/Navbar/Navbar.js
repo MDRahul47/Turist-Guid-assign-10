@@ -12,6 +12,7 @@ const Navbar = () => {
             <div className={`nav-items ${isOpen && "open"}`}>
                 <Link to="/home">Home</Link>
                 <Link to="/Product">Product</Link>
+                <Link to="/blog">Blog</Link>
                 <Link to="/login">Login</Link>
                 <Link to="/about">About</Link>
             </div>

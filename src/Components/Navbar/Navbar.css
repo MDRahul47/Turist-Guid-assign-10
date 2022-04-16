@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: rgb(131, 56, 236);
+    background: rgb(67, 97, 238);
 }
 
 .nav-logo .photo-icon {
@@ -38,7 +38,7 @@
     bottom: 0;
     width: 0;
     height: 2px;
-    background: black;
+    background: white;
     transition: all 0.45s;
 }
 

@@ -1,7 +1,6 @@
 import React from 'react';
 import './Singup.css';
-import google from '../icon-img/google.png';
-import github from '../icon-img/GitHub-.png';
+
 
 const Singup = () => {
     return (
