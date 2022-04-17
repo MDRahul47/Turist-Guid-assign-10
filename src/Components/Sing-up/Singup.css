@@ -27,34 +27,6 @@ input {
     border: none;
 }
 
-button {
-    margin-top: 8px;
-    margin-bottom: 5px;
-    border: none;
-    padding: 12px 30px;
-    font-size: 16px;
-    border-radius: 12px;
-    font-weight: 600;
-    width: 70%;
-    transition: all 0.3s linear;
-    justify-content: center;
-}
-
-
-
-.photo-icon {
-    width: 25px;
-    height: 25px;
-    align-items: center;
-    justify-content: center;
-
-}
-
-button:hover {
-    background-color: black;
-    color: white;
-}
-
 .or {
     font-weight: 600;
     color: white;

@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "name": "Paris france",
+        "price": 420,
+        "ratings": 4.5,
+        "img": "https://images.unsplash.com/photo-1566865035666-59a017dcd807?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+    },
+    {
+        "id": "2",
+        "name": "Taj Mahal",
+        "price": 350,
+        "ratings": 4,
+        "img": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+    },
+    {
+        "id": "3",
+        "name": "Cox Bazar",
+        "price": 490,
+        "ratings": 5,
+        "img": "https://images.unsplash.com/photo-1585993573411-b6eaed50db98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+    },
+    {
+        "id": "4",
+        "name": "Sundorbon",
+        "price": 250,
+        "ratings": 3.7,
+        "img": "https://images.unsplash.com/photo-1601146580645-55b64ab6551d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+        "id": "5",
+        "name": "switzerland",
+        "price": 500,
+        "ratings": 5,
+        "img": "https://images.unsplash.com/photo-1594069758873-e79e9075eb7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+        "id": "6",
+        "name": "canada",
+        "price": 412,
+        "ratings": 4.7,
+        "img": "https://images.unsplash.com/photo-1502003148287-a82ef80a6abc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
+    }
+]

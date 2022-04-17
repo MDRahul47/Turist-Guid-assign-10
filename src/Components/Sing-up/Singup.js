@@ -1,4 +1,5 @@
 import React from 'react';
+import Googlebtn from '../Google&github/googlebtn';
 import './Singup.css';
 
 
@@ -14,8 +15,7 @@ const Singup = () => {
                     <button type="submit">Sing-up</button>
                     <p className='allready'>Already have an account? Login </p>
                     <p className='or'>Or login with</p>
-                    <button>   Google  </button> <br />
-                    <button>  Github </button>
+                    <Googlebtn></Googlebtn>
                 </form>
             </div>
         </div >

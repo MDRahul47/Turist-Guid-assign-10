@@ -1,0 +1,19 @@
+.myself {
+    background: gray;
+    width: 60%;
+    margin: 2px auto;
+    border-radius: 18px;
+    background: #e0e0e0;
+    box-shadow: inset 20px 20px 60px #bebebe,
+        inset -20px -20px 60px #ffffff;
+}
+
+.main {
+    border-radius: 10px;
+}
+
+
+.myimage {
+    border-radius: 18px;
+
+}
