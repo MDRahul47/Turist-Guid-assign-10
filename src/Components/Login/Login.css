@@ -17,6 +17,7 @@
 
 .allready {
     color: rgb(0, 255, 119);
+    margin-top: 10px;
 }
 
 input {
@@ -33,4 +34,10 @@ input {
     font-size: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+.singup {
+    font-weight: 600;
+    color: white;
+    margin-left: 9px;
 }

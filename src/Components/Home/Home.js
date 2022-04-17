@@ -2,7 +2,7 @@ import React from 'react';
 import bannerimg from '../banner-img/banner-1.jpg';
 import bannerimgTwo from '../banner-img/banner-22.jpg';
 import bannerimgthree from '../banner-img/banner-3.jpg';
-import Blog from '../Blog/Blog';
+
 
 const Home = () => {
     return (
@@ -32,7 +32,7 @@ const Home = () => {
                         <img src={bannerimgthree} className="d-block w-100" alt="..." />
                         <div className="carousel-caption  d-md-block">
                             <h5>Give me the long, straight road before me, A clear,</h5>
-                            <p>A heart that is light and free from care.Then let me go! – I care not whither </p>
+                            <p>A heart that is light and free from care.Then let me go!  I care not whither </p>
                         </div>
                     </div>
                 </div>
@@ -45,8 +45,6 @@ const Home = () => {
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
-
-
 
 
 

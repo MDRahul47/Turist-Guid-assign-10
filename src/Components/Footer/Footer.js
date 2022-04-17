@@ -8,7 +8,9 @@ const Footer = () => {
             <footer >
                 <div className='buttom'>
                     <h2>There are no foreign lands. It is the traveller only who is foreign. </h2>
-                    <p>CopyRight  @2022</p>
+                    <p>Copyright © 2022 ||</p>
+                    <p className="text-white"><small>Narayanjong, Bangladesh</small></p>
+                    <p className="text-white"><small>All Rights Reserved.</small></p>
                 </div>
 
             </footer>
