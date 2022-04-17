@@ -4,7 +4,7 @@
         "name": "Paris france",
         "price": 420,
         "ratings": 4.5,
-        "img": "https://images.unsplash.com/photo-1566865035666-59a017dcd807?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+        "img": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80"
     },
     {
         "id": "2",
@@ -18,7 +18,7 @@
         "name": "Cox Bazar",
         "price": 490,
         "ratings": 5,
-        "img": "https://images.unsplash.com/photo-1585993573411-b6eaed50db98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+        "img": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80"
     },
     {
         "id": "4",
@@ -39,6 +39,6 @@
         "name": "canada",
         "price": 412,
         "ratings": 4.7,
-        "img": "https://images.unsplash.com/photo-1502003148287-a82ef80a6abc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
+        "img": "https://images.unsplash.com/photo-1534322897375-9866b3be470c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
     }
 ]

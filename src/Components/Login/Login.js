@@ -6,7 +6,7 @@ import './Login.css';
 const Login = () => {
     return (
 
-        <div className="container-from">
+        <div className="container-froms">
             <form>
                 <h1 className='title'>Login</h1>
                 <input type="email" placeholder='Your Email' /> <br />

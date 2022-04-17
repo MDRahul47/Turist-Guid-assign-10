@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Googlebtn from '../Google&github/googlebtn';
 import './Singup.css';
 
@@ -13,7 +14,7 @@ const Singup = () => {
                     <input type="email" placeholder='Your Email' /> <br />
                     <input type="password" placeholder='Your Password' /> <br />
                     <button type="submit">Sing-up</button>
-                    <p className='allready'>Already have an account? Login </p>
+                    <p className='allready'>Already have an account? <Link className='login' to='/login' > Login</Link> </p>
                     <p className='or'>Or login with</p>
                     <Googlebtn></Googlebtn>
                 </form>

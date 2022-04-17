@@ -8,6 +8,7 @@ import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/Home';
 import Login from './Components/Login/Login';
 import Navbar from './Components/Navbar/Navbar';
+import Singup from './Components/Sing-up/Singup';
 
 
 
@@ -24,6 +25,7 @@ function App() {
         <Route path='*' element={<NotFound></NotFound>}></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
+        <Route path='/singup' element={<Singup></Singup>}></Route>
         <Route path='/about' element={<About></About>}></Route>
 
       </Routes>

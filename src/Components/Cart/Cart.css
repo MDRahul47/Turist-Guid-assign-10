@@ -1,0 +1,11 @@
+.photo {
+    height: 130px;
+    width: 100px;
+}
+
+.main {
+    border-radius: 50px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow: 30px 30px 44px #898989,
+        -30px -30px 44px #ffffff;
+}

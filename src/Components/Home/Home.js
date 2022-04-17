@@ -2,6 +2,8 @@ import React from 'react';
 import bannerimg from '../banner-img/banner-1.jpg';
 import bannerimgTwo from '../banner-img/banner-22.jpg';
 import bannerimgthree from '../banner-img/banner-3.jpg';
+import Store from '../Store/Store';
+
 
 
 const Home = () => {
@@ -46,8 +48,8 @@ const Home = () => {
                 </button>
             </div>
 
-
-
+            <h1 className='text-center mt-5'>Our Package</h1>
+            <Store></Store>
 
         </div>
     );
