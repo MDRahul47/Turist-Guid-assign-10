@@ -1,5 +1,5 @@
 
-import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
+import { getAuth, sendPasswordResetEmail, signInWithEmailAndPassword } from 'firebase/auth';
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import Googlebtn from '../Google&github/googlebtn';
@@ -46,6 +46,13 @@ const Login = () => {
         setEmail(event.target.value);
     }
 
+    const handlePaasswordReset = () => {
+        sendPasswordResetEmail(auth, email)
+            .then(() => {
+                console.log("email sent");
+            })
+    }
+
     return (
 
         <div className="container-froms">
@@ -55,6 +62,7 @@ const Login = () => {
                 <input onBlur={passwordClick} type="password" placeholder='Your Password' /> <br />
                 <p>{error}</p>
                 <button className='btn-g' type="submit">Login</button>
+                <button onClick={handlePaasswordReset} className='btn-g' type="submit">Forget Password</button>
 
                 <p className='allready'>Not a member?<Link className='singup' to='/singup'>sing-up</Link></p>
                 <p className='or'>Or login with</p>

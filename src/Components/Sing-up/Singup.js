@@ -1,4 +1,4 @@
-import { createUserWithEmailAndPassword, getAuth } from 'firebase/auth';
+import { createUserWithEmailAndPassword, getAuth, sendEmailVerification } from 'firebase/auth';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import app from '../../firebase.init';
@@ -19,6 +19,7 @@ const Singup = () => {
                 console.log(user);
                 setEmail('');
                 setpassword('');
+                verifyEmail()
             })
             .catch(error => {
                 console.error(error);
@@ -41,6 +42,12 @@ const Singup = () => {
         setpassword(event.target.value);
     }
 
+    const verifyEmail = () => {
+        sendEmailVerification(auth.currentUser)
+            .then(() => {
+                console.log("email verification sent");
+            })
+    }
 
 
     return (
