@@ -1,7 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Cart = ({ user }) => {
     const { name, price, img, ratings } = user;
+
     return (
         <div class="card-group ">
 
@@ -12,7 +14,7 @@ const Cart = ({ user }) => {
                     <p class="card-text">Price: {price}$</p>
                     <p class="card-text">Rating: {ratings}</p>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam officia perspiciatis debitis impedit reprehenderit, adipisci illum dolorem suscipit deserunt incidunt!</p>
-                    <button className='ms-5'>Booking</button>
+                    <Link to='/recheak'> <button className='ms-5'>Booking</button></Link>
                 </div>
             </div>
 

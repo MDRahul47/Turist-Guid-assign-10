@@ -2,7 +2,7 @@ import React from 'react';
 
 const Recheak = () => {
     return (
-        <div>
+        <div className='container bg-black text-white text-center fw-bold'>
             hay how are you
         </div>
     );

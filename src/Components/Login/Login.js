@@ -1,22 +1,44 @@
 
+import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Googlebtn from '../Google&github/googlebtn';
 import './Login.css';
 
-const Login = () => {
 
+
+const auth = getAuth();
+const Login = () => {
+    const [email, setEmail] = useState('');
+    const [password, setpassword] = useState('');
+    const [error, setError] = useState('');
 
     const chlickSubmit = event => {
-
         event.preventDefault();
+        signInWithEmailAndPassword(auth, email, password)
+            .then(result => {
+                const user = result.user;
+                console.log(user);
+                setEmail('');
+                setpassword('');
+            })
+            .catch(error => {
+                console.error(error);
+
+            })
+
+        if (!/(?=.*?[0-9])/.test(password)) {
+            setError("At least one digit");
+            return;
+        }
     }
 
     const passwordClick = event => {
-        console.log(event.target.value);
+        setpassword(event.target.value);
     }
 
     const emailClick = event => {
-        console.log(event.target.value);
+        setEmail(event.target.value);
     }
 
     return (

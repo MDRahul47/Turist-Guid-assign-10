@@ -9,6 +9,7 @@ const auth = getAuth();
 const Singup = () => {
     const [email, setEmail] = useState('');
     const [password, setpassword] = useState('');
+    const [error, setError] = useState('');
 
 
     const chlickSubmit = event => {
@@ -16,12 +17,18 @@ const Singup = () => {
             .then(result => {
                 const user = result.user;
                 console.log(user);
+                setEmail('');
+                setpassword('');
             })
             .catch(error => {
                 console.error(error);
+
             })
 
-
+        if (!/(?=.*?[0-9])/.test(password)) {
+            setError("At least one digit");
+            return;
+        }
 
         event.preventDefault();
     }
@@ -41,9 +48,13 @@ const Singup = () => {
             <div className="container-from">
                 <form onSubmit={chlickSubmit}>
                     <h1 className='title'>Sing-up</h1>
-                    <input className='td' type="text" placeholder='Your Name' /> <br />
-                    <input onBlur={clickEmail} type="email" placeholder='Your Email' /> <br />
-                    <input onBlur={clickPassword} type="password" placeholder='Your Password' /> <br />
+                    <input className="is-valid" id="validationServer01" type="text" placeholder='Your Name' required /> <br />
+                    <div id="validationServerUsernameFeedback" className="invalid-feedback">
+                        Please choose a username.
+                    </div>
+                    <input onBlur={clickEmail} type="email" placeholder='Your Email' required /> <br />
+                    <input onBlur={clickPassword} type="password" placeholder='Your Password' required /> <br />
+                    <p>{error}</p>
                     <button type="submit">Sing-up</button>
                     <p className='allready'>Already have an account? <Link className='login' to='/login' > Login</Link> </p>
                     <p className='or'>Or login with</p>
