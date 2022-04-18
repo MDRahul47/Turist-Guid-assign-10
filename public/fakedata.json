@@ -4,41 +4,47 @@
         "name": "Paris france",
         "price": 420,
         "ratings": 4.5,
-        "img": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80"
+        "img": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80",
+        "disc": "Cheap Paris City Tours and Trips to France - PARISCityVISION. Book your skip-the-line tickets with Paris City Vision®, the N°1 in Parisian Tours. Number one in Paris. Fast and easy booking. Free cancellation. Professional guides."
     },
     {
         "id": "2",
         "name": "Taj Mahal",
         "price": 350,
         "ratings": 4,
-        "img": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+        "img": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+        "disc": "Taj Mahal, also spelled Tadj Mahall, mausoleum complex in Agra, western Uttar Pradesh state, northern India. The Taj Mahal was built by the Mughal emperor Shah Jahān (reigned 1628–58)  immortalize  wife Mumtaz Mahal (“Chosen One of the Palace”), who died in childbirth in 1631,"
     },
     {
         "id": "3",
         "name": "Cox Bazar",
         "price": 490,
         "ratings": 5,
-        "img": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80"
+        "img": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80",
+        "disc": "There are 20 tourist attractions found in Cox's Bazar. This is 11% of all tourist attractions listed in Chittagong Division. The major types of tourist attractions listed here are nature attractions and zoos. Then there is also landmarks listed in Cox's Bazar. "
     },
     {
         "id": "4",
         "name": "Sundorbon",
         "price": 250,
         "ratings": 3.7,
-        "img": "https://images.unsplash.com/photo-1601146580645-55b64ab6551d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+        "img": "https://images.unsplash.com/photo-1601146580645-55b64ab6551d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "disc": "Waterways of the world'sGanges River and Irrawaddy dolphins. WCS Bangladesh provides technical support to the Bangladesh Forest Department  (Spatial Monitoring and Reporting Tool) law enforcement and wildlife monitoring patrols as well as improving knowledge about and compliance with fisheries regulations."
     },
     {
         "id": "5",
         "name": "switzerland",
         "price": 500,
         "ratings": 5,
-        "img": "https://images.unsplash.com/photo-1594069758873-e79e9075eb7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+        "img": "https://images.unsplash.com/photo-1594069758873-e79e9075eb7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "disc": "Ascend to one of Europes highest peaks on a full-day trip to the magnificent mountain region of Jungfrau from Zurich. With a knowledgeable guide, travel by luxury coach through the scenic splendor of the Bernese Oberland region to the charming village of Grindelwald."
     },
     {
         "id": "6",
         "name": "canada",
         "price": 412,
         "ratings": 4.7,
-        "img": "https://images.unsplash.com/photo-1534322897375-9866b3be470c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+        "img": "https://images.unsplash.com/photo-1534322897375-9866b3be470c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "disc": "Within a remote and rugged landscape, Nunavut promises the fishing trip of a lifetime. Catch lake trout you can barely wrap your arms around! Tangle with wild arctic char that will test your endurance and your gear! Share the tundra with polar bears, muskox and caribou; the only other anglers in sight are your fishing buddies."
     }
 ]

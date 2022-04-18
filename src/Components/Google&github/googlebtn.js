@@ -30,9 +30,9 @@ const Googlebtn = () => {
 
     return (
         <div className='btn-container'>
-            <button onClick={() => signInWithGoogle()}>Google</button> <br />
+            <button className='btn-g' onClick={() => signInWithGoogle()}>Google</button> <br />
             {errorElement}
-            <button onClick={() => signInWithGithub()}>Github</button>
+            <button className='btn-g' onClick={() => signInWithGithub()}>Github</button>
         </div>
     );
 };

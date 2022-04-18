@@ -55,7 +55,7 @@ const Singup = () => {
                     <input onBlur={clickEmail} type="email" placeholder='Your Email' required /> <br />
                     <input onBlur={clickPassword} type="password" placeholder='Your Password' required /> <br />
                     <p>{error}</p>
-                    <button type="submit">Sing-up</button>
+                    <button className='btn-g' type="submit">Sing-up</button>
                     <p className='allready'>Already have an account? <Link className='login' to='/login' > Login</Link> </p>
                     <p className='or'>Or login with</p>
                 </form>
