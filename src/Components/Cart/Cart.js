@@ -14,7 +14,7 @@ const Cart = ({ user }) => {
                     <p class="card-text">Price: {price}$</p>
                     <p class="card-text">Rating: {ratings}</p>
                     <p>{disc}</p>
-                    <Link to='/recheak'> <button className='ms-5 btn-g'>Booking</button></Link>
+                    <Link to='/checkout'> <button className='ms-5 btn-g'>Booking</button></Link>
                 </div>
             </div>
 

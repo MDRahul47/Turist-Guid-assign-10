@@ -24,7 +24,7 @@ const Googlebtn = () => {
     }
 
     if (user || user1) {
-        navigate('/recheak')
+        navigate('/checkout')
     }
 
 

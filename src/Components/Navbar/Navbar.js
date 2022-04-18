@@ -24,7 +24,7 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse justify-content-around" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
                         <CustomLink className="nav-link active" aria-current="page" to="/home">Home</CustomLink>
-                        <CustomLink className="nav-link" to="/recheak">Rechaek</CustomLink>
+                        <CustomLink className="nav-link" to="/checkout">Checkout</CustomLink>
                         <CustomLink className="nav-link" to="/blog">Blog</CustomLink>
                         {
 

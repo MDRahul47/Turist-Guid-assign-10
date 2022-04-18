@@ -26,7 +26,7 @@ function App() {
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
-        <Route path='/recheak' element={
+        <Route path='/checkout' element={
           <RequerAuth>
             <Recheak></Recheak>
           </RequerAuth>
