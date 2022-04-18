@@ -5,7 +5,7 @@ import mySelf from './img/myself.png';
 const About = () => {
     return (
         <div>
-            <div className="card m-5 p-3 m-auto mt-5 mb-5  main" style={{ width: "18rem" }}>
+            <div className="card m-5 p-3 m-auto mt-5 mb-5  mainia" style={{ width: "18rem" }}>
                 <div className='myself'>
                     <img src={mySelf} className="card-img-top w-100 myimage " alt="..." />
                 </div>
