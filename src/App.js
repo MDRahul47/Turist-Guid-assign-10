@@ -34,7 +34,6 @@ function App() {
         >
 
         </Route>
-
         <Route path='/singup' element={<Singup></Singup>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
